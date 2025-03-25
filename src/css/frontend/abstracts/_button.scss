@@ -1,0 +1,42 @@
+%button-base {
+	border: 0;
+	border-radius: var(--wp--custom--border-radius--small);
+	box-shadow: var(--wp--preset--shadow--hard-offset-small);
+	cursor: pointer;
+	max-width: 100%;
+	overflow: visible;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: 600;
+	transition: box-shadow var(--wp--custom--transition--hover-time) ease-in-out,
+				transform var(--wp--custom--transition--hover-time) ease-in-out;
+
+	&:hover {
+		box-shadow: var(--wp--preset--shadow--hard-offset-large);
+		transform: translate3d(-0.125rem, -0.125rem, 0);
+	}
+}
+
+%button {
+	@extend %button-base;
+
+	padding-top: calc( var(--wp--preset--spacing--20) + var(--wp--custom--border-size) );
+	padding-right: calc( var(--wp--preset--spacing--40) + var(--wp--custom--border-size) );
+	padding-bottom: calc( var(--wp--preset--spacing--20) + var(--wp--custom--border-size) );
+	padding-left: calc( var(--wp--preset--spacing--40) + var(--wp--custom--border-size) );
+}
+
+%button-outline {
+	@extend %button-base;
+
+	border: solid var(--wp--custom--border-size) currentColor;
+	background: #0000;
+	padding-top: var(--wp--preset--spacing--20);
+	padding-right: var(--wp--preset--spacing--40);
+	padding-bottom: var(--wp--preset--spacing--20);
+	padding-left: var(--wp--preset--spacing--40);
+	color: currentColor;
+}

@@ -1,0 +1,17 @@
+html,
+body {
+	min-height: 100vh;
+}
+
+// Push footer to bottom.
+footer {
+	margin-block-start: auto !important;
+}
+
+// Main should be purely semantic.
+main {
+	margin-block-start: 0 !important;
+	margin-block-end: 0 !important;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}

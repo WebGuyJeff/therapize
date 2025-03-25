@@ -1,0 +1,11 @@
+
+/**
+ * Set fluid units on the root for responsize everything.
+ *
+ * @see https://websemantics.uk/tools/responsive-font-calculator/
+ */
+:root {
+	--tpz--fluid-root: clamp(16px, calc(1rem + ((1vw - 7.68px) * 0.2604)), 19px);
+	font-size: var( --tpz--fluid-root );
+	min-height: 0vw; // Safari fix.
+}
