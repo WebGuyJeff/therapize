@@ -1,5 +1,3 @@
-
-
 // Header nav root.
 .mainNav {
 
@@ -17,7 +15,7 @@
 
 	/*------------------------------------------------------------------------------- Desktop ----*/
 
-	.wp-block-navigation__responsive-container:not( .is-menu-open ) {
+	.wp-block-navigation__responsive-container:not(.is-menu-open) {
 
 		// Menu dropdown.
 		.has-child .wp-block-navigation-submenu__toggle~.wp-block-navigation__submenu-container {
@@ -28,10 +26,10 @@
 		.wp-block-navigation-item {
 
 			// Define underline colour.
-			--menuColour: var(--wp--preset--color--tpz-accent);
+			--menuColour: var(--wp--preset--color--tpz-green-dark);
 
 			// Underline colours (exclude sub-menu items).
-			&:not( .wp-block-navigation__submenu-container .wp-block-navigation-item ) {
+			&:not(.wp-block-navigation__submenu-container .wp-block-navigation-item) {
 
 				a.wp-block-navigation-item__content {
 					padding-bottom: 0.5rem;
@@ -44,10 +42,10 @@
 					width: 100%;
 					position: absolute;
 					bottom: 0;
-				
-					background-image: 
-					linear-gradient( to right, var(--menuColour), var(--menuColour) ),
-					linear-gradient( to right, var(--wp--preset--color--tpz-bg), var(--wp--preset--color--tpz-bg) );
+
+					background-image:
+						linear-gradient(to right, var(--menuColour), var(--menuColour)),
+						linear-gradient(to right, var(--wp--preset--color--tpz-bg), var(--wp--preset--color--tpz-bg));
 					background-position: 100% 100%, 0 100%;
 					background-repeat: no-repeat;
 					background-size: 100%, 0;
@@ -71,6 +69,7 @@
 			// Dropdown item hover effect.
 			.wp-block-navigation__submenu-container {
 				border-top: none !important;
+
 				li {
 
 					a {
@@ -82,7 +81,7 @@
 
 					&:hover a {
 						background-color: var(--menuColour) !important;
-						color: var(--wp--preset--color--tpz-fg-alt) !important;
+						color: var(--wp--preset--color--tpz-bg) !important;
 					}
 				}
 			}
@@ -94,6 +93,7 @@
 
 	// Make all wrappers full height.
 	.wp-block-navigation__responsive-container.is-menu-open {
+
 		.wp-block-navigation__responsive-close,
 		.wp-block-navigation__responsive-container-content,
 		.wp-block-navigation__responsive-dialog {
@@ -104,19 +104,19 @@
 	.wp-block-navigation__responsive-container.is-menu-open {
 		z-index: 10;
 		gap: var(--wp--preset--spacing--50);
-		background: var(--wp--preset--color--tpz-bg-alt) !important;
-		color: var(--wp--preset--color--tpz-fg-alt) !important;
+		background: var(--wp--preset--color--tpz-fg) !important;
+		color: var(--wp--preset--color--tpz-bg) !important;
 
 		height: 100%;
-	
+
 		.wp-block-navigation__responsive-container-close {
 			margin-top: var(--wp--preset--spacing--50);
-			margin-right: var(--wp--preset--spacing--50)	
+			margin-right: var(--wp--preset--spacing--50)
 		}
 
 		.wp-block-navigation {
 			font-size: var(--wp--preset--font-size--x-large) !important;
-		}	
+		}
 
 		.wp-block-navigation__responsive-container-content {
 			padding-top: 2rem !important;

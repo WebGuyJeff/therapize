@@ -5,9 +5,9 @@ a:not(.wp-block-button__link, header *) {
 	text-decoration: none !important;
 	color: inherit;
 
-	background-image: 
+	background-image:
 		linear-gradient(to right, currentColor, currentColor),
-		linear-gradient(to right, var(--wp--preset--color--tpz-accent), var(--wp--preset--color--tpz-accent));
+		linear-gradient(to right, var(--wp--preset--color--tpz-green-dark), var(--wp--preset--color--tpz-green-dark));
 	transition: background-size var(--wp--custom--transition--hover-time);
 	background-position: 100% 100%, 0 100%;
 	background-repeat: no-repeat;
@@ -28,9 +28,9 @@ li,
 nav,
 .wp-block-site-title {
 	a:not(.wp-block-button__link, header *) {
-		background-image: 
+		background-image:
 			linear-gradient(to right, #0000, #0000),
-			linear-gradient(to right, var(--wp--preset--color--tpz-accent), var(--wp--preset--color--tpz-accent));
+			linear-gradient(to right, var(--wp--preset--color--tpz-green-dark), var(--wp--preset--color--tpz-green-dark));
 	}
 }
 

@@ -55,10 +55,10 @@ $partner_image  = THERAPIZE_URL . 'assets/svg/pattern-images/shape-05.svg';
 							<!-- /wp:heading -->
 						</div>
 						<!-- /wp:group -->
-						<!-- wp:group {"style":{"border":{"radius":"2rem","width":"0rem","style":"none"},"elements":{"link":{"color":{"text":"var:preset|color|tpz-bg-alt"}}}},"backgroundColor":"tpz-bg-alt","textColor":"tpz-bg-alt","className":"has-shadow-soft","layout":{"type":"constrained"}} -->
-						<div class="wp-block-group has-shadow-soft has-tpz-bg-alt-color has-tpz-bg-alt-background-color has-text-color has-background has-link-color" style="border-style:none;border-width:0rem;border-radius:2rem">
-							<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"margin":{"top":"0","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|tpz-fg-alt"}}},"border":{"radius":"1rem"}},"textColor":"tpz-fg-alt","layout":{"type":"constrained"}} -->
-							<div class="wp-block-group has-tpz-fg-alt-color has-text-color has-link-color" style="border-radius:1rem;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)">
+						<!-- wp:group {"style":{"border":{"radius":"2rem","width":"0rem","style":"none"},"elements":{"link":{"color":{"text":"var:preset|color|tpz-fg"}}}},"backgroundColor":"tpz-fg","textColor":"tpz-fg","className":"has-shadow-soft","layout":{"type":"constrained"}} -->
+						<div class="wp-block-group has-shadow-soft has-tpz-fg-color has-tpz-fg-background-color has-text-color has-background has-link-color" style="border-style:none;border-width:0rem;border-radius:2rem">
+							<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"margin":{"top":"0","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|tpz-bg"}}},"border":{"radius":"1rem"}},"textColor":"tpz-bg","layout":{"type":"constrained"}} -->
+							<div class="wp-block-group has-tpz-bg-color has-text-color has-link-color" style="border-radius:1rem;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)">
 								<!-- wp:paragraph -->
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 								<!-- /wp:paragraph -->
@@ -89,8 +89,8 @@ $partner_image  = THERAPIZE_URL . 'assets/svg/pattern-images/shape-05.svg';
 		<!-- /wp:bigup-blocks/vector-shapes -->
 	</div>
 	<!-- /wp:group -->
-	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"backgroundColor":"tpz-bg-alt","className":"partner-container\u002d\u002dinner-bottom","layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignfull partner-container--inner-bottom has-tpz-bg-alt-background-color has-background" style="padding-top:0;padding-bottom:0">
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"backgroundColor":"tpz-fg","className":"partner-container\u002d\u002dinner-bottom","layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull partner-container--inner-bottom has-tpz-fg-background-color has-background" style="padding-top:0;padding-bottom:0">
 		<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			<!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"0","bottom":"0"}}},"className":".partner-container\u002d\u002dcolumns"} -->
@@ -117,8 +117,8 @@ $partner_image  = THERAPIZE_URL . 'assets/svg/pattern-images/shape-05.svg';
 		<!-- /wp:group -->
 	</div>
 	<!-- /wp:group -->
-	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"backgroundColor":"tpz-bg-alt","layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignfull has-tpz-bg-alt-background-color has-background" style="padding-top:0;padding-bottom:0">
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"backgroundColor":"tpz-fg","layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull has-tpz-fg-background-color has-background" style="padding-top:0;padding-bottom:0">
 		<!-- wp:bigup-blocks/vector-shapes {"currentColor":"#fcfcfc","className":"alignfull"} -->
 		<svg
 			xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60" style="color:#fcfcfc;display:block" class="wp-block-bigup-blocks-vector-shapes alignfull">
