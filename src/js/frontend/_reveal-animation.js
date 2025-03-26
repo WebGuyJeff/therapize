@@ -1,6 +1,8 @@
 /**
  * Reveal Animation
  * Handles slide-in 'reveal' animations powered by GSAP.
+ * 
+ * Simple add class 'gs_reveal' to any element.
  */
 
 

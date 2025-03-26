@@ -13,6 +13,8 @@ module.exports = {
 		'css/theme-editor': './src/theme-editor.css.js',
 		'css/theme-dev': './src/theme-dev.css.js',
 		'js/theme': './src/theme.js',
+		'third-party/js/gsap.min': './node_modules/gsap/dist/gsap.min.js',
+		'third-party/js/ScrollTrigger.min': './node_modules/gsap/dist/ScrollTrigger.min.js',
 	},
 	plugins: [
 		...wordpressConfig.plugins,

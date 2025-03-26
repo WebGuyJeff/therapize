@@ -32,7 +32,7 @@ class Theme_Setup {
 		// Methods in this class.
 		add_action( 'wp_enqueue_scripts', array( $this, 'register_front_end_scripts_and_styles' ), 10, 0 );
 		add_action( 'admin_enqueue_scripts', array( $this, 'register_admin_scripts_and_styles' ), 10, 0 );
-		add_action( 'enqueue_block_editor_assets', array( $this, 'register_editor_scripts_and_styles' ), 10, 0 );
+		add_action( 'enqueue_block_assets', array( $this, 'register_editor_scripts_and_styles' ), 10, 0 );
 		add_action( 'wp_head', array( $this, 'add_pingback_header' ), 10, 0 );
 		add_action( 'wp_head', array( new Head_Inject(), 'print_head_markup' ), 5, 0 );
 		add_action( 'after_setup_theme', array( $this, 'theme_supports_and_features' ), 10, 0 );
@@ -55,6 +55,8 @@ class Theme_Setup {
 		if ( $GLOBALS['pagenow'] !== 'wp-login.php' ) {
 			wp_enqueue_style( 'therapize_theme_css', THERAPIZE_URL . 'build/css/theme.css', array(), filemtime( THERAPIZE_PATH . 'build/css/theme.css' ), 'all' );
 			wp_enqueue_script( 'therapize_theme_js', THERAPIZE_URL . 'build/js/theme.js', array(), filemtime( THERAPIZE_PATH . 'build/js/theme.js' ), true );
+			wp_enqueue_script( 'gsap', THERAPIZE_URL . 'build/third-party/js/gsap.min.js', array(), filemtime( THERAPIZE_PATH . 'build/third-party/js/gsap.min.js' ), true );
+			wp_enqueue_script( 'gsap-scrolltrigger', THERAPIZE_URL . 'build/third-party/js/ScrollTrigger.min.js', array( 'gsap' ), filemtime( THERAPIZE_PATH . 'build/third-party/js/ScrollTrigger.min.js' ), true );
 		}
 		if ( current_user_can( 'manage_options' ) && THERAPIZE_DEBUG ) {
 			wp_enqueue_style( 'therapize_theme_dev_css', THERAPIZE_URL . 'build/css/theme-dev.css', array(), filemtime( THERAPIZE_PATH . 'build/css/theme-dev.css' ), 'all' );
@@ -80,6 +82,8 @@ class Theme_Setup {
 	 */
 	public function register_editor_scripts_and_styles() {
 		wp_enqueue_style( 'therapize_theme_editor_css', THERAPIZE_URL . 'build/css/theme-editor.css', array(), filemtime( THERAPIZE_PATH . 'build/css/theme-editor.css' ), 'all' );
+		wp_enqueue_script( 'gsap', THERAPIZE_URL . 'build/third-party/js/gsap.min.js', array(), filemtime( THERAPIZE_PATH . 'build/third-party/js/gsap.min.js' ), true );
+		wp_enqueue_script( 'gsap-scrolltrigger', THERAPIZE_URL . 'build/third-party/js/ScrollTrigger.min.js', array( 'gsap' ), filemtime( THERAPIZE_PATH . 'build/third-party/js/ScrollTrigger.min.js' ), true );
 	}
 
 

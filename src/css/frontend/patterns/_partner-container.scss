@@ -3,7 +3,7 @@
 .partner-container {
 
 	--offset: 10rem;
-	margin-top: var(--offset) !important;
+	margin-top: 3rem !important;
 
 	&--inner-top {
 		position: relative;
@@ -40,5 +40,9 @@
 		img {
 			box-shadow: var(--wp--preset--shadow--theme-soft);
 		}
+	}
+
+	.svgWithDrawPath {
+		width: 20rem;
 	}
 }
