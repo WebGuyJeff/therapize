@@ -3,24 +3,30 @@
 	top: 0;
 	right: 0;
 	left: 0;
-	transition: all var(--wp--custom--transition--hover-time) ease-in;
 	z-index: 10;
 	width: 100% !important;
-	//min-height: 8rem; // Match inner .jsSlideHeader_grid to prevent layout shift on squish.
+	height: 8rem !important;
 	pointer-events: none;
+	transform: translate( 0, 0 );
+	transition: transform var(--wp--custom--transition--hover-time) ease-in,
+	            visibility var(--wp--custom--transition--hover-time) ease-in;
+	transition-delay: 0, var(--wp--custom--transition--hover-time);
+	transition-property: transform, visibility;
 
 	.logoContainer {
-
 		position: relative;
-		height: 5rem;
+		height: auto;
 		max-width: 8rem;
-		transition: height var(--wp--custom--transition--hover-time);
+		transition: height 100ms ease-in;
+
+		.logo-small {
+			position: absolute;
+		}
 
 		.logo-large,
 		.logo-small {
-			position: absolute;
-			height: 100%;
-			transition: opacity var(--wp--custom--transition--hover-time);
+			height: 100% !important;
+			transition: opacity 100ms ease-out;
 
 			img {
 				object-position: left;
@@ -46,6 +52,11 @@
 		.jsSlideHeader_grid {
 			min-height: 4rem !important;
 		}
+	}
+
+	&.is-hidden {
+		transform: translate( 0, -100% );
+		visibility: hidden;
 	}
 
 	.wp-block-navigation-is-layout-flex {

@@ -15,9 +15,8 @@ const slideHeader = () => {
 
 	let header,
 		lastScrollY  = 0,
-		isAnimating  = false,
 		isThrottled  = false,
-		squishBuffer = 150 // Help with class add/remove loop error when scroll distance is affected by header squish.
+		squishBuffer = 50 // Scroll this much before squish.
 
 	const init = () => {
 		const target = document.querySelector( selector )
@@ -26,7 +25,6 @@ const slideHeader = () => {
 		} else {
 			header = target.closest( 'header' )
 		}
-		header.style.visibility = 'visible'
 		window.addEventListener( 'scroll', hasScrolledThrottle )
 	}
 
@@ -43,67 +41,28 @@ const slideHeader = () => {
 	const hasScrolled = () => {
 		const currentScrollY = window.scrollY
 		const isScrollingDown = ( currentScrollY > lastScrollY ) ? true : false
-		lastScrollY = currentScrollY
 		const isBelowFold  = window.scrollY > window.innerHeight
 		const shouldSquish = window.scrollY > squishBuffer
 
-		// Insert class when squished thin.
+		lastScrollY = currentScrollY
+
+		// Squish on scroll down.
 		if ( shouldSquish ) {
 			header.classList.add( 'is-squished' )
 		} else {
 			header.classList.remove( 'is-squished' )
 		}
 
-		// Animate.
-		const isVisible = ( header.style.visibility === 'visible' )
-		if ( ! isAnimating ) {
-			isAnimating = true
-			if ( ! isBelowFold && ! isVisible || ! isVisible && ! isScrollingDown ) {
-				show()
-			} else if ( isVisible && isBelowFold && isScrollingDown ) {
-				hide()
-			} else {
-				isAnimating = false
-			}
+		// Hide when scrolling down below page fold.
+		if ( ! isBelowFold || ! isScrollingDown ) {
+			show()
+		} else if ( isBelowFold && isScrollingDown ) {
+			hide()
 		}
 	}
 
-	/**
-	 * Header must transform to 'none' and not 'translate( 0, 0 )' otherwise inner fixed position
-	 * modals will not be able to break out of the header element. Issue discovered with the WP
-	 * nav modal getting locked into the header. Note: behaviour is per W3 spec, not a bug.
-	 */
-	const show = () => {
-		visibilityToPromise( header, 'visible' )
-			.then( () => transitionToPromise( header, 'transform', 'none' ) )
-			.then( () => isAnimating = false )
-	}
-
-	const hide = () => {
-		transitionToPromise( header, 'transform', 'translate( 0, -100% )' )
-			.then( () => visibilityToPromise( header, 'hidden' ) )
-			.then( () => isAnimating = false )
-	}
-
-	const transitionToPromise = ( element, property, value ) => {
-		return new Promise( ( resolve ) => {
-			element.addEventListener( 'transitionend', () => resolve( 'transition ended!' ), { 'once': true } )
-			element.style[ property ] = value
-		} )
-	}
-
-	// Custom listener as visibility doesn't trigger the `transitionend` listener.
-	const visibilityToPromise = ( element, value ) => {
-		return new Promise( ( resolve ) => {
-			element.style.visibility = value
-			const hasChanged = setInterval( () => {
-				if ( element.style.visibility === value ) {
-					clearInterval( hasChanged )
-					resolve( 'visibility changed!' )
-				}
-			}, 50 )
-		} )
-	}
+	const show = () => header.classList.remove( 'is-hidden' )
+	const hide = () => header.classList.add( 'is-hidden' )
 
 	const docLoaded = setInterval( () => {
 		if ( document.readyState === 'complete' ) {
