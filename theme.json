@@ -65,7 +65,7 @@
 				{ "slug": "tpz-fg","color":"#323b3b","name":"Theme Foreground"},
 				{ "slug": "tpz-green-dark","color":"#33786b","name":"Theme Dark Green"},
 				{ "slug": "tpz-green","color":"#49b697","name":"Theme Green"},
-				{ "slug": "tpz-green-light","color":"#00c1fd","name":"Theme Light Green"}
+				{ "slug": "tpz-green-light","color":"#90d0ba","name":"Theme Light Green"}
 			]
 		},
 		"typography": {
@@ -184,8 +184,8 @@
 				{ "name": "Soft", "slug": "theme-soft", "shadow": "0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12)" },
 				{ "name": "Soft Upward", "slug": "theme-soft-up", "shadow": "0 -1px 1px rgba(0,0,0,0.12), 0 -2px 2px rgba(0,0,0,0.12), 0 -4px 4px rgba(0,0,0,0.12), 0 -8px 8px rgba(0,0,0,0.12), 0 -16px 16px rgba(0,0,0,0.12)" },
 				{ "name": "Inset", "slug": "theme-inset", "shadow": "inset -0.1rem 0.2rem 0.5rem 0.2rem #000c" },
-				{ "name": "Hard Offset Small", "slug": "hard-offset-small", "shadow": "0.25rem 0.25rem 0 var(--wp--preset--color--tpz-green-light)" },
-				{ "name": "Hard Offset Large", "slug": "hard-offset-large", "shadow": "0.5rem 0.5rem 0 var(--wp--preset--color--tpz-green-light)" }
+				{ "name": "Hard Offset Small", "slug": "hard-offset-small", "shadow": "0.25rem 0.25rem 0 var(--wp--preset--color--tpz-green)" },
+				{ "name": "Hard Offset Large", "slug": "hard-offset-large", "shadow": "0.5rem 0.5rem 0 var(--wp--preset--color--tpz-green)" }
 			]
 		},
 		"dimensions": { "minHeight": true },
@@ -240,7 +240,7 @@
 		},
 		"elements": {
 			"button": {
-				"color": { "background": "var(--wp--preset--color--tpz-green-dark)", "text": "var(--wp--preset--color--tpz-bg)" }
+				"color": { "background": "var(--wp--preset--color--tpz-fg)", "text": "var(--wp--preset--color--tpz-bg)" }
 			},
 			"link": { "color": { "text": "inherit" } },
 			"heading": {
@@ -264,7 +264,7 @@
 					"lineHeight": "1",
 					"fontWeight": "600"
 				},
-				"color": { "background": "var(--wp--preset--color--tpz-green-dark)", "text": "var(--wp--preset--color--tpz-bg)" },
+				"color": { "background": "var(--wp--preset--color--tpz-fg)", "text": "var(--wp--preset--color--tpz-bg)" },
 				"border": { "radius": "var(--wp--custom--border-radius--small)", "width": "0" },
 				"variations": {
 					"outline": {

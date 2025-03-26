@@ -5,7 +5,7 @@
 	left: 0;
 	z-index: 10;
 	width: 100% !important;
-	height: 8rem !important;
+	height: 7rem !important;
 	pointer-events: none;
 	transform: translate( 0, 0 );
 	transition: transform var(--wp--custom--transition--hover-time) ease-in,
@@ -32,6 +32,7 @@
 				object-position: left;
 				object-fit: contain;
 				height: 100% !important;
+				width: fit-content !important;
 			}
 		}
 

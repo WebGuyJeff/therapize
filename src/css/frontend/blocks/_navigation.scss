@@ -26,7 +26,7 @@
 		.wp-block-navigation-item {
 
 			// Define underline colour.
-			--menuColour: var(--wp--preset--color--tpz-green-dark);
+			--menuColour: var(--wp--preset--color--tpz-green);
 
 			// Underline colours (exclude sub-menu items).
 			&:not(.wp-block-navigation__submenu-container .wp-block-navigation-item) {
@@ -42,6 +42,7 @@
 					width: 100%;
 					position: absolute;
 					bottom: 0;
+					border-radius: 0.25rem;
 
 					background-image:
 						linear-gradient(to right, var(--menuColour), var(--menuColour)),
