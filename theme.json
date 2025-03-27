@@ -131,6 +131,50 @@
 							]
 						}
 					]
+				},
+				{
+					"fontFamily": "Cantarell, Arial, sans-serif",
+					"name": "Cantarell",
+					"slug": "cantarell",
+					"fontFace": [
+						{
+							"fontFamily": "Cantarell",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/Cantarell/Cantarell-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cantarell",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/Cantarell/Cantarell-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cantarell",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/Cantarell/Cantarell-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "Cantarell",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/Cantarell/Cantarell-BoldItalic.ttf"
+							]
+						},
+						
+					]
 				}
 			],
 			"fontSizes": [
