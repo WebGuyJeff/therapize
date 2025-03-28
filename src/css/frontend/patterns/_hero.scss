@@ -1,12 +1,38 @@
 .hero {
-	.hero-svg {
-		position: absolute;
+	h1 {
 		z-index: 1;
-		margin-left: 7rem;
-		margin-top: -3rem;
+	}
 
+	.hero_svg {
+		--svgWidth: clamp( 10rem, 34%, 20rem ) !important;
+		--svgMarginTop: -6.5rem !important;
+		position: absolute;
+		z-index: 0;
+		margin-top: -6.5rem !important;
+		margin-right: 10rem !important;
+		//width: var(--svgWidth) !important;
+
+		// Using the SVG plugin, the SVG gets rendered as an <img> in the editor and <svg> on frontend.
 		svg {
-			height: 16rem;
+			width: var(--svgWidth) !important;
+		}
+		img {
+			object-fit: contain	!important;
+			width: var(--svgWidth) !important;
+		}
+	}
+
+	@media screen and (max-width: 781px) {
+		--svgWidth: clamp( 10rem, 34%, 20rem ) !important;
+
+		.hero_svg {
+			margin-top: -5.5rem !important;
+			margin-right: 10rem !important;
+		}
+
+		.hero_photo {
+			float: none !important;
+			margin: auto !important;
 		}
 	}
 }
