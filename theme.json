@@ -290,7 +290,7 @@
 			"heading": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--heading)",
-					"fontWeight": "900",
+					"fontWeight": "700",
 					"lineHeight": "1.3"
 				}
 			},
