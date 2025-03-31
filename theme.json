@@ -209,9 +209,9 @@
 				{ "name": "2 (1rem)", "slug": "30", "size": "1rem" },
 				{ "name": "3 (2rem)", "slug": "40", "size": "2rem" },
 				{ "name": "4 (3.5rem)", "slug": "50", "size": "3rem" },
-				{ "name": "5 (6rem)", "slug": "60", "size": "5rem" },
-				{ "name": "6 (0.75rem)", "slug": "70", "size": "8rem" },
-				{ "name": "7 (10rem)", "slug": "80", "size": "12rem" }
+				{ "name": "5 (5.5rem)", "slug": "60", "size": "5rem" },
+				{ "name": "6 (8rem)", "slug": "70", "size": "8rem" },
+				{ "name": "7 (11rem)", "slug": "80", "size": "12rem" }
 			]
 		},
 		"border": {
