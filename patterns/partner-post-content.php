@@ -50,15 +50,15 @@ $partner_image  = THERAPIZE_URL . 'assets/svg/pattern-images/shape-05.svg';
 					<div class="wp-block-group partner-container--copy" style="border-radius:1rem;padding-top:0;padding-bottom:0">
 						<!-- wp:group {"style":{"border":{"radius":"1rem"},"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
 						<div class="wp-block-group" style="border-radius:1rem;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50)">
-							<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|tpz-bg"}}},"typography":{"textTransform":"capitalize"}},"textColor":"tpz-bg","fontSize":"xxx-large"} -->
-							<h3 class="wp-block-heading has-tpz-bg-color has-text-color has-link-color has-xxx-large-font-size" style="text-transform:capitalize"><?php echo esc_html( $strings['title'] ); ?></h3>
+							<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|theme-white"}}},"typography":{"textTransform":"capitalize"}},"textColor":"theme-white","fontSize":"xxx-large"} -->
+							<h3 class="wp-block-heading has-theme-white-color has-text-color has-link-color has-xxx-large-font-size" style="text-transform:capitalize"><?php echo esc_html( $strings['title'] ); ?></h3>
 							<!-- /wp:heading -->
 						</div>
 						<!-- /wp:group -->
-						<!-- wp:group {"style":{"border":{"radius":"2rem","width":"0rem","style":"none"},"elements":{"link":{"color":{"text":"var:preset|color|tpz-fg"}}}},"backgroundColor":"tpz-fg","textColor":"tpz-fg","className":"has-shadow-soft","layout":{"type":"constrained"}} -->
-						<div class="wp-block-group has-shadow-soft has-tpz-fg-color has-tpz-fg-background-color has-text-color has-background has-link-color" style="border-style:none;border-width:0rem;border-radius:2rem">
-							<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"margin":{"top":"0","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|tpz-bg"}}},"border":{"radius":"1rem"}},"textColor":"tpz-bg","layout":{"type":"constrained"}} -->
-							<div class="wp-block-group has-tpz-bg-color has-text-color has-link-color" style="border-radius:1rem;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)">
+						<!-- wp:group {"style":{"border":{"radius":"2rem","width":"0rem","style":"none"},"elements":{"link":{"color":{"text":"var:preset|color|theme-black"}}}},"backgroundColor":"theme-black","textColor":"theme-black","className":"has-shadow-soft","layout":{"type":"constrained"}} -->
+						<div class="wp-block-group has-shadow-soft has-theme-black-color has-theme-black-background-color has-text-color has-background has-link-color" style="border-style:none;border-width:0rem;border-radius:2rem">
+							<!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"margin":{"top":"0","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|theme-white"}}},"border":{"radius":"1rem"}},"textColor":"theme-white","layout":{"type":"constrained"}} -->
+							<div class="wp-block-group has-theme-white-color has-text-color has-link-color" style="border-radius:1rem;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--50)">
 								<!-- wp:paragraph -->
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 								<!-- /wp:paragraph -->
@@ -89,8 +89,8 @@ $partner_image  = THERAPIZE_URL . 'assets/svg/pattern-images/shape-05.svg';
 		<!-- /wp:bigup-blocks/vector-shapes -->
 	</div>
 	<!-- /wp:group -->
-	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"backgroundColor":"tpz-fg","className":"partner-container\u002d\u002dinner-bottom","layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignfull partner-container--inner-bottom has-tpz-fg-background-color has-background" style="padding-top:0;padding-bottom:0">
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"backgroundColor":"theme-black","className":"partner-container\u002d\u002dinner-bottom","layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull partner-container--inner-bottom has-theme-black-background-color has-background" style="padding-top:0;padding-bottom:0">
 		<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 			<!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"0","bottom":"0"}}},"className":".partner-container\u002d\u002dcolumns"} -->
@@ -117,8 +117,8 @@ $partner_image  = THERAPIZE_URL . 'assets/svg/pattern-images/shape-05.svg';
 		<!-- /wp:group -->
 	</div>
 	<!-- /wp:group -->
-	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"backgroundColor":"tpz-fg","layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignfull has-tpz-fg-background-color has-background" style="padding-top:0;padding-bottom:0">
+	<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"backgroundColor":"theme-black","layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull has-theme-black-background-color has-background" style="padding-top:0;padding-bottom:0">
 		<!-- wp:bigup-blocks/vector-shapes {"currentColor":"#fcfcfc","className":"alignfull"} -->
 		<svg
 			xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60" style="color:#fcfcfc;display:block" class="wp-block-bigup-blocks-vector-shapes alignfull">

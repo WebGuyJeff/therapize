@@ -26,7 +26,7 @@
 		.wp-block-navigation-item {
 
 			// Define underline colour.
-			--menuColour: var(--wp--preset--color--tpz-green);
+			--menuColour: var(--wp--preset--color--theme-green);
 
 			// Underline colours (exclude sub-menu items).
 			&:not(.wp-block-navigation__submenu-container .wp-block-navigation-item) {
@@ -46,7 +46,7 @@
 
 					background-image:
 						linear-gradient(to right, var(--menuColour), var(--menuColour)),
-						linear-gradient(to right, var(--wp--preset--color--tpz-bg), var(--wp--preset--color--tpz-bg));
+						linear-gradient(to right, var(--wp--preset--color--theme-white), var(--wp--preset--color--theme-white));
 					background-position: 100% 100%, 0 100%;
 					background-repeat: no-repeat;
 					background-size: 100%, 0;
@@ -82,7 +82,7 @@
 
 					&:hover a {
 						background-color: var(--menuColour) !important;
-						color: var(--wp--preset--color--tpz-bg) !important;
+						color: var(--wp--preset--color--theme-white) !important;
 					}
 				}
 			}
@@ -105,8 +105,8 @@
 	.wp-block-navigation__responsive-container.is-menu-open {
 		z-index: 10;
 		gap: var(--wp--preset--spacing--50);
-		background: var(--wp--preset--color--tpz-fg) !important;
-		color: var(--wp--preset--color--tpz-bg) !important;
+		background: var(--wp--preset--color--theme-black) !important;
+		color: var(--wp--preset--color--theme-white) !important;
 
 		height: 100%;
 

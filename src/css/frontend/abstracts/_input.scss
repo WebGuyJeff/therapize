@@ -1,9 +1,9 @@
 %input-base {
 	border: none;
 	border-radius: var(--wp--custom--border-radius--small);
-	background-color: var(--wp--preset--color--tpz-bg);
+	background-color: var(--wp--preset--color--theme-white);
 	cursor: pointer;
-	color: var(--wp--preset--color--tpz-fg);
+	color: var(--wp--preset--color--theme-black);
 
 	&:disabled {
 		cursor: default;
