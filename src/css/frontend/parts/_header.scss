@@ -40,6 +40,12 @@
 		.logo-small { opacity: 0; }
 	}
 
+	nav {
+		li {
+			margin: 0 !important;
+		}
+	}
+
 	&.is-squished {
 
 		.logoContainer {

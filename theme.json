@@ -149,13 +149,13 @@
 			"blockGap": true,
 			"units": [ "em", "rem", "vh", "vw", "%" ],
 			"spacingSizes": [
-				{ "name": "1 (0.5rem)", "slug": "20", "size": "0.5rem" },
-				{ "name": "2 (1rem)", "slug": "30", "size": "1rem" },
-				{ "name": "3 (2rem)", "slug": "40", "size": "2rem" },
-				{ "name": "4 (3.5rem)", "slug": "50", "size": "3rem" },
-				{ "name": "5 (5.5rem)", "slug": "60", "size": "5rem" },
-				{ "name": "6 (8rem)", "slug": "70", "size": "8rem" },
-				{ "name": "7 (11rem)", "slug": "80", "size": "12rem" }
+				{ "name": "1 (0.5em)", "slug": "20", "size": "0.5em" },
+				{ "name": "2 (1em)", "slug": "30", "size": "1em" },
+				{ "name": "3 (2em)", "slug": "40", "size": "2em" },
+				{ "name": "4 (3em)", "slug": "50", "size": "3em" },
+				{ "name": "5 (5em)", "slug": "60", "size": "5em" },
+				{ "name": "6 (8em)", "slug": "70", "size": "8em" },
+				{ "name": "7 (12em)", "slug": "80", "size": "12em" }
 			]
 		},
 		"shadow": {
