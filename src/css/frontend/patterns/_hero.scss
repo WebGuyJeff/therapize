@@ -1,16 +1,17 @@
 .hero {
+	--svgWidth: clamp( 10rem, 34%, 20rem ) !important;
+	--svgMarginTop: 340px !important;
+
 	h1 {
 		z-index: 1;
 	}
 
 	.hero_svg {
-		--svgWidth: clamp( 10rem, 34%, 20rem ) !important;
-		--svgMarginTop: -6.5rem !important;
 		position: absolute;
-		z-index: 0;
-		margin-top: -6.5rem !important;
-		margin-right: 10rem !important;
-		//width: var(--svgWidth) !important;
+		//z-index: 0;
+		margin-top: var(--svgMarginTop) !important;
+		margin-left: -20px !important;
+		width: var(--svgWidth) !important;
 
 		// Using the SVG plugin, the SVG gets rendered as an <img> in the editor and <svg> on frontend.
 		svg {
@@ -26,7 +27,7 @@
 		--svgWidth: clamp( 10rem, 34%, 20rem ) !important;
 
 		.hero_svg {
-			margin-top: -5.5rem !important;
+			--svgMarginTop: -5.5rem !important;
 			margin-right: 10rem !important;
 		}
 

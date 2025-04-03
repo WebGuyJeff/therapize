@@ -5,7 +5,7 @@
 	left: 0;
 	z-index: 10;
 	width: 100% !important;
-	height: 7rem !important;
+	height: 6.6rem !important;
 	pointer-events: none;
 	transform: translate( 0, 0 );
 	transition: transform var(--wp--custom--transition--hover-time) ease-in,
@@ -17,7 +17,7 @@
 		position: relative;
 		height: auto;
 		max-width: 8rem;
-		transition: height 100ms ease-in;
+		//transition: height 100ms ease-in;
 
 		.logo-small {
 			position: absolute;
@@ -26,7 +26,7 @@
 		.logo-large,
 		.logo-small {
 			height: 100% !important;
-			transition: opacity 100ms ease-out;
+			//transition: opacity 100ms ease-out;
 
 			img {
 				object-position: left;
@@ -49,8 +49,8 @@
 	&.is-squished {
 
 		.logoContainer {
-			height: 3rem;
-			min-width: 3rem;
+			height: 4rem;
+			min-width: 4rem;
 
 			.logo-large { opacity: 0; }
 			.logo-small { opacity: 1; }

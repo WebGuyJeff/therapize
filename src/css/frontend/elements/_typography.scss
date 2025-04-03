@@ -30,16 +30,25 @@ blockquote {
 	position: relative;
 	padding-left: var(--wp--preset--spacing--40);
 	color: inherit;
+	border: none;
 
 	p:first-child:before {
 		display: block;
 		position: absolute;
-		top: -.8em;
-		left: -.4em;
+		top: -70px;
+		left: -20px;
 		transform: rotate( -15deg );
-		margin-right: 1.1875em;
-		font-size: 360%;
-		content: '\2760'
+		margin-right: 0;
+		font-size: 260%;
+		content: '\2760';
+		opacity: 0.3;
+	}
+
+	&.wp-block-quote {
+		border-left: none;
+		padding-left: var(--wp--preset--spacing--40);
+		margin-inline-end: var(--wp--preset--spacing--40);
+		margin-inline-start: var(--wp--preset--spacing--40);
 	}
 }
 
