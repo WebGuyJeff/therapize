@@ -9,8 +9,8 @@
  */
 
 $strings = array(
-	'title'        => __( 'Mortgage and Protection Adviser', 'therapize' ),
-	'location'     => __( 'Hampshire', 'therapize' ),
+	'title'        => __( 'Job Title', 'therapize' ),
+	'location'     => __( 'City', 'therapize' ),
 	'pay'          => __( '£20,000 - £130,000', 'therapize' ),
 	'type'         => __( 'Permanent, Full-time', 'therapize' ),
 	'requirements' => __( '3+ Years Experience', 'therapize' ),

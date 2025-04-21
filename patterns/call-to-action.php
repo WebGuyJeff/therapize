@@ -10,7 +10,7 @@
 
 $strings = array(
 	'title'  => __( 'Contact us Today', 'therapize' ),
-	'byline' => __( 'We are ready to provide you with with mortgage advice and help secure your home.', 'therapize' ),
+	'byline' => __( 'We are ready to provide you with the services you require.', 'therapize' ),
 	'button' => __( 'Contact', 'therapize' ),
 );
 

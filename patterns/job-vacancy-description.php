@@ -9,7 +9,7 @@
  */
 
 $strings = array(
-	'job_title'      => __( 'Mortgage and Protection Adviser', 'therapize' ),
+	'job_title'      => __( 'Job Title', 'therapize' ),
 	'details'        => array(
 		'title'       => __( 'Job details', 'therapize' ),
 		'pay_title'   => __( 'Pay', 'therapize' ),

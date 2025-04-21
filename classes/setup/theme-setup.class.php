@@ -36,6 +36,7 @@ class Theme_Setup {
 		add_action( 'wp_head', array( $this, 'add_pingback_header' ), 10, 0 );
 		add_action( 'wp_head', array( new Head_Inject(), 'print_head_markup' ), 5, 0 );
 		add_action( 'after_setup_theme', array( $this, 'theme_supports_and_features' ), 10, 0 );
+		add_action( 'init', array( $this, 'load_translations' ), 10, 0 );
 		add_action( 'init', array( $this, 'register_taxonomy_for_default_posts' ), 10, 0 );
 		self::remove_head_bloat();
 
@@ -145,6 +146,14 @@ class Theme_Setup {
 	public function register_taxonomy_for_default_posts() {
 		register_taxonomy_for_object_type( 'post_tag', 'page' );
 		register_taxonomy_for_object_type( 'category', 'page' );
+	}
+
+
+	/**
+	 * Load translations.
+	 */
+	public function load_translations() {
+		load_theme_textdomain( 'therapize', THERAPIZE_PATH . 'languages/' );
 	}
 
 

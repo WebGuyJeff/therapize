@@ -29,7 +29,7 @@ $strings = array(
 	),
 	'cta'      => array(
 		'title'  => __( 'Get in Touch', 'therapize' ),
-		'byline' => __( 'Our advisers are here and ready to help you.', 'therapize' ),
+		'byline' => __( 'Our agents are here and ready to help you.', 'therapize' ),
 		'button' => __( 'Contact', 'therapize' ),
 	),
 );

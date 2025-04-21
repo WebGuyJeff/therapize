@@ -10,7 +10,7 @@
 
 $strings = array(
 	'title'       => __( 'Refer Friends and Get Rewarded', 'therapize' ),
-	'byline'      => __( 'We appreciate your loyalty and would like to offer you a little thanks for spreading the word. Refer a friend to get £25, then get an additional £25 for each friend after that!', 'therapize' ),
+	'byline'      => __( 'We appreciate your loyalty and would like to offer you a little thanks for spreading the word!', 'therapize' ),
 	'tiers'       => array(
 		'item' => __( 'Referral', 'therapize' ),
 		'nths' => array(

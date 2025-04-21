@@ -9,7 +9,7 @@
  */
 
 $strings = array(
-	'title'  => __( 'Estate Agents', 'therapize' ),
+	'title'  => __( 'Partners', 'therapize' ),
 	'button' => __( 'Visit Our Partner', 'therapize' ),
 );
 
