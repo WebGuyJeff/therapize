@@ -21,9 +21,6 @@ class Patterns {
 	 * Register_Patterns constructor.
 	 */
 	public function __construct() {
-
-		return;
-
 		$this->categories = array(
 			'therapize' => array( 'label' => __( 'Therapize Patterns', 'therapize' ) ),
 			'bigupweb'  => array( 'label' => __( 'Bigup Web Patterns', 'therapize' ) ),

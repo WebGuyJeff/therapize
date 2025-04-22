@@ -1,0 +1,12 @@
+.pattern-posts-latest-3 {
+	ul {
+		display: flex !important;
+		flex-flow: row wrap !important;
+		justify-content: center !important;
+		margin: 0 !important;
+
+		li {
+			flex: 0 1 18em !important;
+		}
+	}
+}
