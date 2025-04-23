@@ -5,7 +5,7 @@
  * - Sub-directories are searched recursively.
  * - Classes are denoted by the suffix .class.php.
  *
- * @package bigup-seo
+ * @package therapize
  * @author Jefferson Real <jeff@webguyjeff.com>
  * @copyright Copyright (c) 2024, Jefferson Real
  * @license GPL3+
