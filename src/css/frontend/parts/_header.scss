@@ -5,9 +5,7 @@
 	left: 0;
 	z-index: 10;
 	width: 100% !important;
-	height: 6.6rem !important;
 	pointer-events: none;
-	transform: translate( 0, 0 );
 	transition: transform var(--wp--custom--transition--hover-time) ease-in,
 	            visibility var(--wp--custom--transition--hover-time) ease-in;
 	transition-delay: 0, var(--wp--custom--transition--hover-time);
