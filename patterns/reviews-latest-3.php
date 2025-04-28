@@ -48,12 +48,6 @@ $strings = array(
 			<!-- /wp:group -->
 			<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group">
-				<!-- wp:bigup-blocks/vector-shapes {"currentColor":"#ffb129"} -->
-				<svg
-					xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60" style="color:#ffb129;display:block" class="wp-block-bigup-blocks-vector-shapes alignfull">
-					<path fill="currentColor" d="M960 24c641 55 960 0 960 0v37H0V24s319-54 960 0Z"></path>
-				</svg>
-				<!-- /wp:bigup-blocks/vector-shapes -->
 				<!-- wp:columns {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","bottom":"var:preset|spacing|50"}},"elements":{"link":{"color":{"text":"var:preset|color|theme-black"}}}},"backgroundColor":"theme-green","textColor":"theme-black"} -->
 				<div class="wp-block-columns has-theme-black-color has-theme-green-background-color has-text-color has-background has-link-color" style="padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)">
 					<!-- wp:column {"width":"50%"} -->

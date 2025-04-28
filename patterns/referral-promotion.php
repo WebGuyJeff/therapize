@@ -33,16 +33,6 @@ $primary_image = THERAPIZE_URL . 'assets/svg/pattern-images/shape-01.svg';
 <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
 	<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0"}},"className":"loyalty","layout":{"type":"constrained"},"metadata":{"name":"Loyalty"}} -->
 	<div class="wp-block-group alignfull loyalty">
-		<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}},"dimensions":{"minHeight":""}},"layout":{"type":"constrained"}} -->
-		<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-			<!-- wp:bigup-blocks/vector-shapes {"currentColor":"#fe6150","className":"alignfull"} -->
-			<svg
-				xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60" style="color:#fe6150;display:block" class="wp-block-bigup-blocks-vector-shapes alignfull">
-				<path fill="currentColor" d="M960 24c641 55 960 0 960 0v37H0V24s319-54 960 0Z"></path>
-			</svg>
-			<!-- /wp:bigup-blocks/vector-shapes -->
-		</div>
-		<!-- /wp:group -->
 		<!-- wp:group {"align":"full","backgroundColor":"theme-green-dark","layout":{"type":"constrained"}} -->
 		<div class="wp-block-group alignfull has-theme-green-dark-background-color has-background">
 			<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
@@ -283,16 +273,6 @@ $primary_image = THERAPIZE_URL . 'assets/svg/pattern-images/shape-01.svg';
 				<!-- /wp:group -->
 			</div>
 			<!-- /wp:group -->
-		</div>
-		<!-- /wp:group -->
-		<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"blockGap":"0"}},"backgroundColor":"theme-green-dark","layout":{"type":"constrained"}} -->
-		<div class="wp-block-group alignfull has-theme-green-dark-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-			<!-- wp:bigup-blocks/vector-shapes {"currentColor":"#fcfcfc","className":"alignfull"} -->
-			<svg
-				xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60" style="color:#fcfcfc;display:block" class="wp-block-bigup-blocks-vector-shapes alignfull">
-				<path fill="currentColor" d="M960 24c641 55 960 0 960 0v37H0V24s319-54 960 0Z"></path>
-			</svg>
-			<!-- /wp:bigup-blocks/vector-shapes -->
 		</div>
 		<!-- /wp:group -->
 	</div>

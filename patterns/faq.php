@@ -121,9 +121,9 @@ $strings = array(
 	<!-- /wp:group -->
 	<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 	<div class="wp-block-buttons">
-		<!-- wp:button {"textColor":"lonewolf-fg-alt"} -->
+		<!-- wp:button -->
 		<div class="wp-block-button">
-			<a class="wp-block-button__link has-lonewolf-fg-alt-color has-text-color wp-element-button" href="#"><?php echo esc_html( $strings['button'] ); ?></a>
+			<a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html( $strings['button'] ); ?></a>
 		</div>
 		<!-- /wp:button -->
 	</div>

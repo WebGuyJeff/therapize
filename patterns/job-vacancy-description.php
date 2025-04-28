@@ -39,12 +39,6 @@ $icons = array(
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:bigup-blocks/vector-shapes {"currentColor":"#fcfcfc"} -->
-		<svg
-			xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60" style="color:#fcfcfc;display:block" class="wp-block-bigup-blocks-vector-shapes alignfull">
-			<path fill="currentColor" d="M960 24c641 55 960 0 960 0v37H0V24s319-54 960 0Z"></path>
-		</svg>
-		<!-- /wp:bigup-blocks/vector-shapes -->
 	</div>
 	<!-- /wp:group -->
 	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|50","padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->

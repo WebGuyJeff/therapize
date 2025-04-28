@@ -30,8 +30,8 @@ $strings = array(
 		<!-- wp:query-pagination-next /-->
 		<!-- /wp:query-pagination -->
 		<!-- wp:query-no-results -->
-		<!-- wp:paragraph {"backgroundColor":"therapize-bg-alt"} -->
-		<p class="has-therapize-bg-alt-background-color has-background">
+		<!-- wp:paragraph -->
+		<p>
 			<?php echo esc_html( $strings['no_posts'] ); ?>
 		</p>
 		<!-- /wp:paragraph -->

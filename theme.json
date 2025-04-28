@@ -5,13 +5,12 @@
 		{ "name": "page-full-width", "title": "Page: Full-width", "postTypes": [ "page" ] },
 		{ "name": "page-no-header", "title": "Page: No Header", "postTypes": [ "page" ] },
 		{ "name": "page-no-title", "title": "Page: No Title", "postTypes": [ "page" ] },
-		{ "name": "page-with-hero", "title": "Page: Hero Banner", "postTypes": [ "page" ] },
-		{ "name": "archive-service", "title": "Archive: Service Posts" },
-		{ "name": "archive-review", "title": "Archive: Review Posts" },
-		{ "name": "category-partners", "title": "Category: Partners" },
+		{ "name": "page-with-featured-image", "title": "Page: With Featured Image", "postTypes": [ "page" ] },
+		{ "name": "archive-post", "title": "Archive: Posts" },
+		{ "name": "archive-service", "title": "Archive: Services" },
+		{ "name": "archive-review", "title": "Archive: Reviews" },
 		{ "name": "single-review", "title": "Single: Review", "postTypes": [ "review" ] },
-		{ "name": "single-service", "title": "Single: Service", "postTypes": [ "service" ] },
-		{ "name": "single-partners", "title": "Single: Partners Category", "postTypes": [ "post" ] }
+		{ "name": "single-service", "title": "Single: Service", "postTypes": [ "service" ] }
 	],
 	"templateParts": [
 		{ "name": "header", "title": "Header", "area": "header" },

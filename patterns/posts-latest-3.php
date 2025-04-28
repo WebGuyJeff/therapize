@@ -30,15 +30,6 @@ $strings = array(
 				<!-- wp:post-title {"textAlign":"center","level":3,"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0","left":"0","right":"0"}},"typography":{"fontStyle":"italic","fontWeight":"700"}},"fontFamily":"body"} /-->
 			</div>
 			<!-- /wp:group -->
-			<!-- wp:bigup-blocks/vector-shapes -->
-			<div class="wp-block-bigup-blocks-vector-shapes alignfull" style="--bottomColour:#f2f3ef;--topColour:#f2f3ef;--lineColor:#33786b;--lineVisible:visible;--lineWidth:1rem">
-				<svg class="vectorShapeWave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 100" data-top-colour="#f2f3ef" data-bottom-colour="#f2f3ef" data-line-colour="#33786b" data-line-visible="visible" data-line-width="1rem">
-					<path class="vectorShapeWave_top" fill="var(--topColour)" d="M0 0v50s319-54 960 0c641 55 960 0 960 0V0Z"></path>
-					<path class="vectorShapeWave_bottom" fill="var(--bottomColour)" d="M960 50c641 55 960 0 960 0v50H0V50s319-54 960 0Z"></path>
-					<path class="vectorShapeWave_line" stroke-width="var(--lineWidth)" stroke="var(--lineColor)" style="visibility:var(--lineVisible)" fill="none" stroke-linecap="round" d="M0 50s312-55 960 0 960 0 960 0"></path>
-				</svg>
-			</div>
-			<!-- /wp:bigup-blocks/vector-shapes -->
 			<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
 				<!-- wp:post-excerpt {"moreText":"<?php echo esc_html( $strings['readmore'] ); ?>","showMoreOnNewLine":true} /-->
