@@ -13,9 +13,9 @@
 
 	.logoContainer {
 		position: relative;
-		height: auto;
+		height: 6rem;
 		max-width: 8rem;
-		//transition: height 100ms ease-in;
+		transition: height 100ms ease-in;
 
 		.logo-small {
 			position: absolute;
@@ -24,13 +24,17 @@
 		.logo-large,
 		.logo-small {
 			height: 100% !important;
-			//transition: opacity 100ms ease-out;
+			transition: opacity 250ms ease-out;
 
 			img {
 				object-position: left;
 				object-fit: contain;
 				height: 100% !important;
 				width: fit-content !important;
+			}
+
+			a {
+				height: 100% !important;
 			}
 		}
 
@@ -76,7 +80,7 @@
 	.jsSlideHeader_grid {
 		gap: 1rem !important;
 		display: grid !important;
-		grid-template-columns: 0px 6rem 1fr 0px 0px !important;
+		grid-template-columns: 0px 8rem 1fr 0px 0px !important;
 		pointer-events: auto;
 		transition: all var(--wp--custom--transition--hover-time) ease-in;
 
@@ -96,11 +100,11 @@
 		}
 
 		@media (min-width: 35rem) {
-			grid-template-columns: 1fr 6rem minmax(0px, 44rem) 0px 1fr !important;
+			grid-template-columns: 1fr 8rem minmax(0px, 42rem) 0px 1fr !important;
 		}
 
 		@media (min-width: 70rem) {
-			grid-template-columns: 1fr minmax(0px, 10rem) minmax(0px, 50rem) minmax(0px, 10rem) 1fr !important;
+			grid-template-columns: 1fr minmax(0px, 10rem) minmax(0px, 48rem) minmax(0px, 10rem) 1fr !important;
 
 			// Nav column.
 			&>*:nth-child(3) {

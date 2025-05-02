@@ -1,5 +1,9 @@
 footer.wp-block-template-part {
 
+	.wp-block-site-logo {
+		max-width: 10em;
+	}
+
 	// Center align on mobile.
 	@media (max-width: 781px) {
 

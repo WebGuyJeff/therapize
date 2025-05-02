@@ -1,0 +1,8 @@
+.aboutSection {
+	figure.wp-block-image {
+		@media screen and ( max-width: 781px ) {
+			float: none !important;
+			margin: 0 auto !important;
+		}
+	}
+}
