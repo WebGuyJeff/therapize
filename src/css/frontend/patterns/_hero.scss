@@ -24,15 +24,32 @@
 	}
 
 	@media screen and (max-width: 781px) {
+		.wp-block-columns{
+			padding-top: 0 !important;
+
+			p {
+				margin-top: 0.5em;
+				font-size: 16px !important;
+			}
+		}
+
+		h1 {
+			margin-bottom: 0 !important;
+		}
 
 		.hero_svg {
 			--svgMarginTop: -5.5rem !important;
 			margin-right: 10rem !important;
 		}
 
-		.hero_photo {
-			float: none !important;
-			margin: 0 auto !important;
+		.hero_photoWrapper {
+			margin-inline: 0 !important;
+			padding-inline: 0 !important;
+
+			.hero_photo {
+				float: none !important;
+				margin: 0 auto !important;
+			}
 		}
 	}
 }
